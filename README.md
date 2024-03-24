@@ -34,7 +34,7 @@ Add some changes to your file ~ nano readme.md
 Save them and commit:
 ~ git add .
 ~ git commit -m "NAME"
-~ git push
+~ git push -u origin BRANCH_NAME
 Merge it with the main branch:
 ~ git switch main
 ~ git merge BRANCH_NAME 
